@@ -1,125 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>SUDLF Menu – FAQs | Union Bank of India</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SUDLF Menu – Frequently Asked Questions</title>
 
 <style>
-:root{
-  --ubi-blue:#003A8F;
-  --ubi-red:#E31E24;
-  --bg:#F4F6F9;
-  --card:#FFFFFF;
-  --text:#1F2937;
+:root {
+  --ubi-blue: #003A8F;
+  --ubi-red: #E31E24;
+  --bg: #F4F6F9;
+  --card: #FFFFFF;
+  --text: #1F2937;
 }
 
-*{box-sizing:border-box;font-family:Segoe UI,Arial,sans-serif}
-
-body{
-  margin:0;
-  background:var(--bg);
-  color:var(--text);
+* {
+  box-sizing: border-box;
+  font-family: Segoe UI, Arial, sans-serif;
 }
 
-/* HEADER */
-header{
-  background:var(--ubi-blue);
-  color:#fff;
-  padding:16px 20px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  flex-wrap:wrap;
-}
-header img{height:42px}
-header .logos{display:flex;gap:16px;align-items:center}
-header h1{font-size:20px;margin:0;font-weight:600}
-
-/* LAYOUT */
-.container{
-  max-width:1150px;
-  margin:24px auto;
-  padding:0 16px;
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
 }
 
-.section-title{
-  margin:32px 0 12px;
-  font-size:18px;
-  color:var(--ubi-blue);
-  font-weight:600;
-  border-left:5px solid var(--ubi-red);
-  padding-left:10px;
+header {
+  background: var(--ubi-blue);
+  color: #fff;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-/* FAQ CARD */
-.faq{
-  background:var(--card);
-  border-radius:8px;
-  margin-bottom:10px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.05);
-  overflow:hidden;
-}
-.faq button{
-  width:100%;
-  background:none;
-  border:none;
-  padding:14px 16px;
-  text-align:left;
-  cursor:pointer;
-  font-size:15px;
-  font-weight:600;
-  color:var(--ubi-blue);
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-}
-.faq button:hover{background:#f0f4ff}
-.faq-content{
-  display:none;
-  padding:14px 16px;
-  border-top:1px solid #e5e7eb;
-  font-size:14px;
-  line-height:1.6;
-}
-.icon{color:var(--ubi-red);font-size:18px}
-
-/* TABLE */
-table{
-  width:100%;
-  border-collapse:collapse;
-  margin-top:10px;
-}
-th,td{
-  border:1px solid #d1d5db;
-  padding:8px;
-  font-size:13px;
-}
-th{
-  background:#e6efff;
-  color:var(--ubi-blue);
+header img {
+  height: 42px;
 }
 
-/* IMAGE */
-.faq-content img{
-  max-width:100%;
-  margin-top:12px;
-  border:1px solid #ddd;
-  border-radius:6px;
+header .logos {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
-/* FOOTER */
-footer{
-  text-align:center;
-  font-size:12px;
-  color:#6b7280;
-  padding:16px;
+header h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-/* RESPONSIVE */
-@media(max-width:600px){
-  header{justify-content:center;text-align:center}
-  header h1{font-size:16px;margin-top:10px}
+.container {
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.section-title {
+  margin: 32px 0 12px;
+  font-size: 18px;
+  color: var(--ubi-blue);
+  font-weight: 600;
+  border-left: 5px solid var(--ubi-red);
+  padding-left: 10px;
+}
+
+.faq {
+  background: var(--card);
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+.faq button {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 14px 16px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ubi-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq button:hover {
+  background: #f0f4ff;
+}
+
+.faq-content {
+  display: none;
+  padding: 14px 16px;
+  border-top: 1px solid #e5e7eb;
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+.icon {
+  color: var(--ubi-red);
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #6b7280;
+  padding: 16px;
+}
+
+@media (max-width: 600px) {
+  header {
+    justify-content: center;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
 }
 </style>
 </head>
@@ -129,72 +132,140 @@ footer{
 <header>
   <div class="logos">
     <img src="UBI.png" alt="Union Bank of India">
-    <img src="SUDLife.png" alt="SUD Life">
+    <img src="SUDLife.png" alt="SUD Life Insurance">
   </div>
-  <h1>SUDLF Menu – FAQs for Bankers</h1>
+  <h1>SUDLF Menu – Frequently Asked Questions</h1>
 </header>
 
 <div class="container">
 
-<!-- ================= CUSTOMER DETAILS ================= -->
 <div class="section-title">Customer Details & Validation</div>
 
-<div class="faq"><button onclick="t(this)">Q1. Whose Customer ID and Account Number is to be input?<span class="icon">+</span></button>
-<div class="faq-content">Proposer / premium payer’s account number must be entered. If Insured is different, their details must be entered separately. Premium calculation depends on Insured Name, DOB and Gender.</div></div>
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q1. Whose “Customer ID” and “Account Number” is to be input in the main “Choice” menu?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. Person who will pay for the policy or the Proposer’s account number to be input.
 
-<div class="faq"><button onclick="t(this)">Q2. What if customer mobile number is not mapped?<span class="icon">+</span></button>
-<div class="faq-content">System will not allow processing. Customer must update mobile number in CBS.</div></div>
+In case, Insured is different from the account holder, then Insured details to be input in “Insured Details section”. Ensure correctness of the information as premium calculation shall happen on the Name, DOB and Gender of the Insured.
+</div>
+</div>
 
-<div class="faq"><button onclick="t(this)">Q3. How are mismatched DOB or discrepancies handled?<span class="icon">+</span></button>
-<div class="faq-content">Any mismatch must be corrected in CBS. Premium computation depends on accurate CBS data.</div></div>
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q2. What happens when the customer’s mobile number is not mapped to the Cust_ID?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. If the customer’s mobile number is not correctly mapped to their Cust_ID, the system will not allow further processing. The customer must ensure that their mobile number is updated with the bank to enable authentication, communication, and transactionrelated activities.
+</div>
+</div>
 
-<div class="faq"><button onclick="t(this)">Q4. Standard Age Proof (Y/N) clarity?<span class="icon">+</span></button>
-<div class="faq-content">Errors must be corrected in DQ. Correct capture at initial stage is recommended.</div></div>
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q3. How will exceptional cases be handled (e.g., mismatched DOB or other discrepancies that impact premium computation)?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. Any customer detail that differs from the information available in CBS (Core Banking System)—such as date of birth, name, address, income, etc.—must be rectified directly with the bank. Premium computation relies on accurate CBS data, so incorrect information must be updated promptly.
+</div>
+</div>
 
-<div class="faq"><button onclick="t(this)">Q5. Who receives OTP if proposer and insured differ?<span class="icon">+</span></button>
-<div class="faq-content">OTP is sent to the Proposer / Account Holder.</div></div>
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q4. What is the clarity around Standard Age Proof (Y/N) iteration?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. Any error in the Standard Age Proof indicator (Yes/No) will need to be corrected in DQ (Data Quality). However, it is always preferable to ensure that this detail is correctly captured at the initial stage to avoid later iterations.
+</div>
+</div>
 
-<!-- ================= MAKER CHECKER ================= -->
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q5. In cases where the Proposer and Life Assured are different, who will receive the OTP?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. When the Proposer and Life Assured are different individuals, the OTP will be sent to the Proposer, who is also the Account Holder.
+</div>
+</div>
+
 <div class="section-title">Maker–Checker & Modification Controls</div>
 
-<div class="faq"><button onclick="t(this)">Q6. Who can be maker and checker?<span class="icon">+</span></button>
-<div class="faq-content">Any authorized employee, but same person cannot do both for one transaction.</div></div>
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q6. Who can be a maker and who can be a checker/verifier?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. Any authorized bank employee can act as a maker or a checker. However, the same individual cannot perform both roles on the same application or transaction. The bank will internally decide and assign maker–checker responsibilities based on its operational guidelines.
+</div>
+</div>
 
-<div class="faq"><button onclick="t(this)">Q7. Can verifier modify details?<span class="icon">+</span></button>
-<div class="faq-content">No. Verifier must reject; maker modifies and resubmits.</div></div>
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q7. Can the verifier modify details in the same menu?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. No, the verifier cannot modify details. Only the maker has the authority to make corrections. If any information is incorrect, the verifier must reject the form, after which the maker can update and resubmit it.
+</div>
+</div>
 
-<div class="faq"><button onclick="t(this)">Q8. Can new business be modified or cancelled?<span class="icon">+</span></button>
-<div class="faq-content">Yes. Modify (4) or Cancel (5) options are available for New Business.</div></div>
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q8. Can I modify or cancel a new business transaction?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. In “Choice” menu there are 4- Modify / 5 - Cancel option can be used to modify or cancel a transaction respectively. It is related to New Business only.
+</div>
+</div>
 
-<!-- ================= PRODUCTS ================= -->
 <div class="section-title">Products & Sourcing</div>
 
-<div class="faq"><button onclick="t(this)">Q9. Name of new menu in Finacle?<span class="icon">+</span></button>
-<div class="faq-content">SUDLF (Menu Shortcut available).</div></div>
-
-<div class="faq"><button onclick="t(this)">Q10. Products available from this menu?<span class="icon">+</span></button>
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q9. What is the name of the new menu for SUD Life in Finacle?
+<span class="icon">+</span>
+</button>
 <div class="faq-content">
+Ans. The name of the new menu is SUDLF. Same is available in the Menu Shortcut
+</div>
+</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q10. What all products can be sourced from this menu?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. All retail products. List as mentioned below:
+
 <table>
-<tr><th>Product Name</th><th>Code</th></tr>
+<tr><th>Product Name</th><th>Product Code</th></tr>
 <tr><td>Saral Jeevan Bima</td><td>T35</td></tr>
 <tr><td>Simple Term Plan</td><td>T51</td></tr>
 <tr><td>Smart Healthcare</td><td>H01</td></tr>
 <tr><td>Saral Pension</td><td>I05</td></tr>
 <tr><td>Century Gold</td><td>T45</td></tr>
 <tr><td>Century Income</td><td>T47</td></tr>
-<tr><td>Century Royale</td><td>T38</td></tr>
+<tr><td> Century Royale</td><td>T38</td></tr>
 <tr><td>Retirement Royale</td><td>U21</td></tr>
 <tr><td>Wealth Creator</td><td>U18</td></tr>
 <tr><td>Wealth Builder</td><td>U15</td></tr>
-<tr><td>E-Wealth Royale</td><td>U19</td></tr>
+<tr><td>E-wealth Royale</td><td>U19</td></tr>
 <tr><td>Star Tulip</td><td>U24</td></tr>
-<tr><td>Smart Guaranteed Pension</td><td>T52</td></tr>
+<tr><td>Smart Guaranteed Pension Plan</td><td>T52</td></tr>
 <tr><td>Pension Plus</td><td>U25</td></tr>
 <tr><td>Samriddhi</td><td>T23</td></tr>
 <tr><td>Guarantee Royale</td><td>T50</td></tr>
-<tr><td>POS Sanchay</td><td>T24</td></tr>
+<tr><td>POS- Sud Life Sanchay</td><td>T24</td></tr>
 <tr><td>Century Plus</td><td>T29</td></tr>
-<tr><td>Guaranteed Money Back</td><td>T33</td></tr>
+<tr><td>Guaranteed Money Back Plan</td><td>T33</td></tr>
 <tr><td>Century Star</td><td>T36</td></tr>
 <tr><td>Fortune Royale</td><td>T43</td></tr>
 <tr><td>Aadarsh</td><td>T21</td></tr>
@@ -202,82 +273,210 @@ footer{
 <tr><td>Fortune Plus</td><td>T55</td></tr>
 <tr><td>Smart Term Plan</td><td>T53</td></tr>
 </table>
-</div></div>
-
-<div class="faq"><button onclick="t(this)">Q11. Credit Life / POS allowed?<span class="icon">+</span></button>
-<div class="faq-content">POS allowed. Credit Life not allowed currently.</div></div>
-
-<div class="faq"><button onclick="t(this)">Q12. Applicable branches?<span class="icon">+</span></button>
-<div class="faq-content">All CBS-enabled UBI branches.</div></div>
-
-<!-- ================= PREMIUM ================= -->
-<div class="section-title">Premium Calculation & Policy Issuance</div>
-
-<div class="faq"><button onclick="t(this)">Q13. Can premium be calculated here?<span class="icon">+</span></button>
-<div class="faq-content">Yes, after entering PT, PPT, Mode and Plan details.</div></div>
-
-<div class="faq"><button onclick="t(this)">Q14. How is premium deducted?<span class="icon">+</span></button>
-<div class="faq-content">Integrated premium calculation via Premium Details tab. No manual coordination required.</div></div>
-
-<div class="faq"><button onclick="t(this)">Q15. Actions allowed?<span class="icon">+</span></button>
-<div class="faq-content">New business premium collection for all retail policies.</div></div>
-
-<div class="faq"><button onclick="t(this)">Q16. Application number generation?<span class="icon">+</span></button>
-<div class="faq-content">Generated on submission and can be shared with customer.</div></div>
-
-<div class="faq"><button onclick="t(this)">Q17. Policy issuance timeline?<span class="icon">+</span></button>
-<div class="faq-content">SUD Life sales office contacts customer and updates status.</div></div>
-
-<!-- ================= LIEN ================= -->
-<div class="section-title">Account Debit, Lien & Flow</div>
-
-<div class="faq"><button onclick="t(this)">Q18. Which account is debited?<span class="icon">+</span></button>
-<div class="faq-content">Account selected in Choice menu is lien marked and debited.</div></div>
-
-<div class="faq"><button onclick="t(this)">Q19. Debit process flow?<span class="icon">+</span></button>
-<div class="faq-content">
-CBS ID → Account → Lien → Debit  
-<img src="Q19.png" alt="Debit Flow">
-</div></div>
-
-<div class="faq"><button onclick="t(this)">Q20. When is salesperson intimated?<span class="icon">+</span></button>
-<div class="faq-content">Within 30 minutes via Digi Quick.</div></div>
-
-<div class="faq"><button onclick="t(this)">Q21. Will transactions reflect in flat file?<span class="icon">+</span></button>
-<div class="faq-content">No. Flat file generation is discontinued.</div></div>
-
-<!-- ================= EXCEPTIONS ================= -->
-<div class="section-title">Cheques, Exceptions & General</div>
-
-<div class="faq"><button onclick="t(this)">Q22. Cheques from other banks?<span class="icon">+</span></button>
-<div class="faq-content">Must be deposited in customer account; normal clearing applies.</div></div>
-
-<div class="faq"><button onclick="t(this)">Q23. Sundry account debit?<span class="icon">+</span></button>
-<div class="faq-content">No. Only customer account allowed.</div></div>
-
-<div class="faq"><button onclick="t(this)">Q24. Employer–Employee lien issue?<span class="icon">+</span></button>
-<div class="faq-content">Physical forms unavailable in DQ; existing workflow continues.</div></div>
-
-<div class="faq"><button onclick="t(this)">Q25. Underwriter lien update not completed?<span class="icon">+</span></button>
-<div class="faq-content">Underwriter / Sales can complete manually via designated link.</div></div>
-
-<div class="faq"><button onclick="t(this)">Q26. Any documents to collect?<span class="icon">+</span></button>
-<div class="faq-content">No. Sales officer handles due diligence.</div></div>
-
-<div class="faq"><button onclick="t(this)">Q27. Available dropdown options?<span class="icon">+</span></button>
-<div class="faq-content">New Business, Modify, Verify, Generate Application Number, Cancel.</div></div>
-
+</div>
 </div>
 
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q11. Can I source Credit life and POS policy from this menu?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. Yes, currently POS policies can be sourced from this menu and currently the Credit Life Policies cannot be sourced from this menu.
+</div>
+</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q12. Which all UBI branches can this be done?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. This will be available in all existing CBS of UBI branches.
+</div>
+</div>
+
+<div class="section-title">Premium Calculation & Policy Issuance</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q13. Can premium calculation be done through this menu?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. Yes, currently premium calculation is enabled in this menu, after the product is selected and its details are filled like Policy Term (PT), Premium Paying Term (PPT), Mode and Plan Option etc. the Premium is Calculated.
+</div>
+</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q14. How will I get the premium to be deducted for the new policy
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. Manual coordination with sales personnel is no longer required. Premium calculation is now fully integrated, allowing users to generate accurate quotes directly within the system via the 'Premium Details' tab.
+</div>
+</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q15. What all action can be performed from this menu?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. New business premium for all retail policies can be collected.
+</div>
+</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q16. Will application number be generated, and can that be shared with the customer?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. Application number will reflect in the screen on submission of the transaction this can be shared with the customer. The customer can call the SUD life call centre for a status update.
+</div>
+</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q17. How much time will it take for policy issuance after submission?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. The Sales office of SUD life will contact the customer and take all information that is necessary for issuance of the policy. They will update the customer on the status of the policy.
+</div>
+</div>
+
+<div class="section-title">Account Debit, Lien & Flow</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q18. Which account number of the customer is lien marked and debited?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. Customer ID and Account Number is chosen in the “Choice” menu at the start will be marked for lien. Same shall be debited.
+</div>
+</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q19. What is the customer account debit process flow from CBS ID → Account → Debit?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+<img src="Q19.png" alt="Customer account debit process flow">
+</div>
+</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q20. When will the Salesperson from SUD life be intimated about the transaction?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. The Salesperson of SUD life would get update about the lien marking in his Digi Quick application maximum by 30 minutes.
+</div>
+</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q21. Will all transaction perform in this menu, reflect in the flat file?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. The generation and transmission of periodic flat files to SUD Life will be discontinued under the new process.
+</div>
+</div>
+
+<div class="section-title">Cheques, Sundry Accounts & Exceptions</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q22. How are cheques from another bank handled?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. Cheques issued from another bank must be deposited into the customer’s existing account. These cheques will follow normal clearing timelines and are considered noncollectible until cleared.
+</div>
+</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q23. Can I debit Sundry account?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. No, only customer account can be debited.
+</div>
+</div>
+
+<div class="section-title">Employer–Employee & Lien Issues</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q24. Employer–Employee concept: Why is lien marking not going through?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. In employer–employee cases, lien marking may not process because physical forms required for this setup are not available on DQ. The current process continues as per the existing workflow.
+</div>
+</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q25. What happens if the Underwriter → CA lien amount update is not completed?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. If the lien amount is not updated by the Underwriter and does not flow to the CA system, the Underwriter and the Sales team can complete the process manually using the designated link.
+
+Account holder name issue (same as nominee):
+If there is a mismatch in the account holder’s name, it must be modified in DQ to ensure proper validation.
+</div>
+</div>
+
+<div class="section-title">General Information</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q26. Do I need to collect any documents from the customer?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. No, document is required to be collected from the customer, the sales officer will connect and do the required due diligence.
+</div>
+</div>
+
+<div class="faq">
+<button onclick="toggleFaq(this)">
+Q27. Which options from the dropdown are applicable at this stage (e.g., New Business, Modify, Verify, Generate Application Number)?
+<span class="icon">+</span>
+</button>
+<div class="faq-content">
+Ans. All the options listed—such as New Business, Modify, Verify, Generate Application Number, and Cancel—are available and functional at this stage of the process.
+</div>
+</div>
+
+</div> <!-- end container -->
+
 <footer>
-© SUD Life Insurance Company Ltd. | Internal – Union Bank of India
+© SUD Life Insurance Company Ltd. | Internal Use – Union Bank of India
 </footer>
 
 <script>
-function t(b){
-  const c=b.nextElementSibling,i=b.querySelector(".icon");
-  c.style.display=c.style.display==="block"?"none":"block";
-  i.textContent=c.style.display==="block"?"−":"+";
+function toggleFaq(button) {
+  const content = button.nextElementSibling;
+  const icon = button.querySelector(".icon");
+
+  if (content.style.display === "block") {
+    content.style.display = "none";
+    icon.textContent = "+";
+  } else {
+    content.style.display = "block";
+    icon.textContent = "−";
+  }
 }
 </script>
 
